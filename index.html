@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Eslam Ashraf is a 3D Artist & AI Artist specializing in product visualization, CGI, animation and AI-powered visual content."
+    />
+    <meta property="og:title" content="Eslam Ashraf — 3D Artist & AI Artist" />
+    <meta
+      property="og:description"
+      content="Product visualization, CGI and AI-powered visual content for brands that want to stand out."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=1600&q=85"
+    />
+    <title>Eslam Ashraf — 3D Artist & AI Artist</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2314171f'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial' font-size='30' fill='white'%3EE%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="wordmark" href="#top" aria-label="Eslam Ashraf home"
+        >ESLAM<span>.</span></a
+      >
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a><a href="#services">Services</a
+        ><a href="#about">About</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#contact"
+        >Let's Talk <span aria-hidden="true">↗</span></a
+      >
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="Open menu"
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-top">
+        <span>MENU</span
+        ><button class="menu-close" type="button" aria-label="Close menu">
+          Close <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <nav aria-label="Mobile navigation">
+        <a href="#work">Work <span>01</span></a
+        ><a href="#services">Services <span>02</span></a
+        ><a href="#about">About <span>03</span></a
+        ><a href="#contact">Contact <span>04</span></a>
+      </nav>
+      <p>3D Artist &amp; AI Artist<br />Based in Egypt</p>
+    </div>
+
+    <main>
+      <section class="hero section-shell reveal" aria-labelledby="hero-title">
+        <div class="hero-kicker">
+          <span class="eyebrow-dot"></span><span>3D ARTIST · AI ARTIST</span
+          ><span class="hero-location">EGYPT / 2026</span>
+        </div>
+        <h1 id="hero-title">
+          I create visual experiences that make <em>products</em> impossible to
+          ignore.
+        </h1>
+        <div class="hero-bottom">
+          <p class="hero-copy">
+            3D Product Visualization, CGI &amp; AI-powered visual content for
+            brands that want to stand out.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work"
+              >View My Work <span>↗</span></a
+            ><a class="text-link" href="#contact"
+              >Let's Work Together <span>↗</span></a
+            >
+          </div>
+        </div>
+        <div class="availability">
+          <span class="status-dot"></span> Available for freelance projects
+          <span class="availability-line"></span> Scroll to explore
+          <span class="scroll-arrow">↓</span>
+        </div>
+      </section>
+
+      <section
+        class="work-section section-shell"
+        id="work"
+        aria-labelledby="work-title"
+      >
+        <div class="section-intro reveal">
+          <div>
+            <p class="section-index">01 / SELECTED WORK</p>
+            <h2 id="work-title">Selected <em>work</em></h2>
+          </div>
+          <p class="section-description">
+            A selection of 3D, CGI and AI-driven visual projects.<br />Every
+            frame starts as an idea.
+          </p>
+        </div>
+        <div
+          class="filter-row reveal"
+          role="group"
+          aria-label="Filter projects"
+        >
+          <button
+            class="filter-button is-active"
+            type="button"
+            data-filter="all"
+          >
+            All</button
+          ><button class="filter-button" type="button" data-filter="3d">
+            3D</button
+          ><button class="filter-button" type="button" data-filter="cgi">
+            CGI</button
+          ><button class="filter-button" type="button" data-filter="animation">
+            Animation</button
+          ><button class="filter-button" type="button" data-filter="ai">
+            AI
+          </button>
+        </div>
+        <div class="project-grid" id="project-grid">
+          <article
+            class="project-card project-card-wide reveal"
+            data-category="3d"
+            data-title="Liquid Chrome"
+            data-type="Concept Project"
+            data-category-label="3D Product Visualization"
+            data-description="A conceptual product visualization exploring reflective materials, controlled lighting and premium studio composition."
+            data-image="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=1800&q=85"
+          >
+            <button
+              class="project-trigger"
+              type="button"
+              aria-label="Open Liquid Chrome project"
+            >
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=1800&q=85"
+                  alt="Minimal glass cosmetic bottles arranged in a warm studio"
+                  loading="eager"
+                /><span class="project-overlay">View project <b>↗</b></span>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Liquid Chrome</h3>
+                  <p>3D Product Visualization <span>·</span> Concept Project</p>
+                </div>
+                <span class="project-arrow">↗</span>
+              </div>
+            </button>
+          </article>
+          <article
+            class="project-card reveal"
+            data-category="ai"
+            data-title="Future Form"
+            data-type="Experimental Project"
+            data-category-label="AI + 3D"
+            data-description="An experimental visual study combining futuristic environments, AI-assisted ideation and 3D composition."
+            data-image="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1400&q=85"
+          >
+            <button
+              class="project-trigger"
+              type="button"
+              aria-label="Open Future Form project"
+            >
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1400&q=85"
+                  alt="Atmospheric mountain landscape with futuristic blue light"
+                  loading="lazy"
+                /><span class="project-overlay">View project <b>↗</b></span>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Future Form</h3>
+                  <p>AI + 3D <span>·</span> Experimental Project</p>
+                </div>
+                <span class="project-arrow">↗</span>
+              </div>
+            </button>
+          </article>
+          <article
+            class="project-card reveal"
+            data-category="cgi"
+            data-title="Pure Form"
+            data-type="Personal Study"
+            data-category-label="Commercial CGI"
+            data-description="A minimal commercial-style visual exploration focused on product form, lighting and composition."
+            data-image="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1400&q=85"
+          >
+            <button
+              class="project-trigger"
+              type="button"
+              aria-label="Open Pure Form project"
+            >
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1400&q=85"
+                  alt="Luxury skincare bottle in a clean product scene"
+                  loading="lazy"
+                /><span class="project-overlay">View project <b>↗</b></span>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Pure Form</h3>
+                  <p>Commercial CGI <span>·</span> Personal Study</p>
+                </div>
+                <span class="project-arrow">↗</span>
+              </div>
+            </button>
+          </article>
+          <article
+            class="project-card project-card-tall reveal"
+            data-category="animation"
+            data-title="Motion Object"
+            data-type="Concept Project"
+            data-category-label="3D Animation"
+            data-description="A cinematic 3D concept focused on movement, camera composition and product presentation."
+            data-image="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1400&q=85"
+          >
+            <button
+              class="project-trigger"
+              type="button"
+              aria-label="Open Motion Object project"
+            >
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1400&q=85"
+                  alt="Abstract sculptural forms in a cinematic scene"
+                  loading="lazy"
+                /><span class="project-overlay">View project <b>↗</b></span>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Motion Object</h3>
+                  <p>3D Animation <span>·</span> Concept Project</p>
+                </div>
+                <span class="project-arrow">↗</span>
+              </div>
+            </button>
+          </article>
+          <article
+            class="project-card reveal"
+            data-category="3d"
+            data-title="Studio No.01"
+            data-type="Personal Study"
+            data-category-label="3D Product Study"
+            data-description="A product-focused lighting and materials study created as a visual exploration."
+            data-image="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1400&q=85"
+          >
+            <button
+              class="project-trigger"
+              type="button"
+              aria-label="Open Studio No.01 project"
+            >
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1400&q=85"
+                  alt="Premium watch photographed against a dark studio background"
+                  loading="lazy"
+                /><span class="project-overlay">View project <b>↗</b></span>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Studio No.01</h3>
+                  <p>3D Product Study <span>·</span> Personal Study</p>
+                </div>
+                <span class="project-arrow">↗</span>
+              </div>
+            </button>
+          </article>
+          <article
+            class="project-card reveal"
+            data-category="ai"
+            data-title="Digital Matter"
+            data-type="Experimental Project"
+            data-category-label="Experimental 3D"
+            data-description="An abstract CGI experiment exploring shape, material and light."
+            data-image="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1400&q=85"
+          >
+            <button
+              class="project-trigger"
+              type="button"
+              aria-label="Open Digital Matter project"
+            >
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1400&q=85"
+                  alt="Retro futuristic hardware object with dramatic lighting"
+                  loading="lazy"
+                /><span class="project-overlay">View project <b>↗</b></span>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <h3>Digital Matter</h3>
+                  <p>Experimental 3D <span>·</span> Experimental Project</p>
+                </div>
+                <span class="project-arrow">↗</span>
+              </div>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="services-section section-shell"
+        id="services"
+        aria-labelledby="services-title"
+      >
+        <div class="section-intro reveal">
+          <div>
+            <p class="section-index">02 / CAPABILITIES</p>
+            <h2 id="services-title">What I <em>do</em></h2>
+          </div>
+          <p class="section-description">
+            Visuals with a point of view.<br />Built to make an impression.
+          </p>
+        </div>
+        <div class="service-grid">
+          <article class="service-item reveal">
+            <span>01</span>
+            <h3>3D Product Visualization</h3>
+            <p>
+              Photorealistic product renders designed for advertising,
+              e-commerce and branding.
+            </p>
+          </article>
+          <article class="service-item reveal">
+            <span>02</span>
+            <h3>Commercial CGI</h3>
+            <p>
+              High-end CGI visuals for campaigns, social media and product
+              launches.
+            </p>
+          </article>
+          <article class="service-item reveal">
+            <span>03</span>
+            <h3>3D Animation</h3>
+            <p>
+              Product animations, camera animations and short-form commercial
+              content.
+            </p>
+          </article>
+          <article class="service-item reveal">
+            <span>04</span>
+            <h3>AI + 3D Content</h3>
+            <p>
+              Combining AI workflows with 3D production to create unique visual
+              concepts.
+            </p>
+          </article>
+          <article class="service-item reveal">
+            <span>05</span>
+            <h3>Product Advertising</h3>
+            <p>
+              Visual assets designed specifically for marketing campaigns and
+              digital advertising.
+            </p>
+          </article>
+          <article class="service-item reveal">
+            <span>06</span>
+            <h3>Creative Direction</h3>
+            <p>
+              Developing visual concepts from idea to final image or animation.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="about-section section-shell"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div class="about-copy reveal">
+          <p class="section-index">03 / THE ARTIST</p>
+          <h2 id="about-title">
+            A 3D artist focused on making <em>ideas look real.</em>
+          </h2>
+          <p class="about-body">
+            I'm Eslam Ashraf, a 3D Artist and AI Artist focused on product
+            visualization, CGI, animation and creative visual content. I combine
+            3D workflows with modern AI tools to create visuals that help
+            products and brands communicate with impact.
+          </p>
+          <a class="text-link" href="#contact"
+            >More about the process <span>↗</span></a
+          >
+        </div>
+        <div class="about-details reveal">
+          <dl>
+            <div>
+              <dt>Based in</dt>
+              <dd>Egypt</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>3D / CGI / AI</dd>
+            </div>
+            <div>
+              <dt>Available for</dt>
+              <dd>Freelance &amp; Creative Projects</dd>
+            </div>
+          </dl>
+          <div class="skill-columns">
+            <div>
+              <p class="mini-label">TOOLS</p>
+              <ul>
+                <li>Blender</li>
+                <li>Houdini</li>
+                <li>Octane</li>
+                <li>Photoshop</li>
+                <li>After Effects</li>
+                <li>AI Creative Tools</li>
+              </ul>
+            </div>
+            <div>
+              <p class="mini-label">SKILLS</p>
+              <ul>
+                <li>3D Modeling</li>
+                <li>Texturing</li>
+                <li>Lighting</li>
+                <li>Rendering</li>
+                <li>Animation</li>
+                <li>Product Visualization</li>
+                <li>CGI</li>
+                <li>AI Visual Creation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="process-section section-shell"
+        aria-labelledby="process-title"
+      >
+        <div class="section-intro reveal">
+          <div>
+            <p class="section-index">04 / APPROACH</p>
+            <h2 id="process-title">How I <em>work</em></h2>
+          </div>
+          <p class="section-description">
+            A clear path from first thought<br />to final frame.
+          </p>
+        </div>
+        <div class="process-grid">
+          <article class="process-step reveal">
+            <span>01</span>
+            <h3>Discover</h3>
+            <p>Understand the product, audience and visual goal.</p>
+          </article>
+          <article class="process-step reveal">
+            <span>02</span>
+            <h3>Concept</h3>
+            <p>Develop the visual direction, references and composition.</p>
+          </article>
+          <article class="process-step reveal">
+            <span>03</span>
+            <h3>Create</h3>
+            <p>Build, light, texture, animate and refine the 3D scene.</p>
+          </article>
+          <article class="process-step reveal">
+            <span>04</span>
+            <h3>Deliver</h3>
+            <p>
+              Export polished visuals ready for campaigns, social media or
+              commercial use.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="dark-section" aria-labelledby="dark-title">
+        <div class="section-shell dark-inner">
+          <p class="section-index">05 / FULL SPECTRUM</p>
+          <h2 id="dark-title">From idea<br />to <em>final frame.</em></h2>
+          <div class="capability-list">
+            <span>3D Product Rendering</span><span>Commercial CGI</span
+            ><span>Product Animation</span
+            ><span>Creative Visual Development</span
+            ><span>AI-assisted Content Creation</span
+            ><span>Social Media Visuals</span>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="contact-section section-shell"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <p class="section-index reveal">06 / START A CONVERSATION</p>
+        <h2 id="contact-title" class="reveal">
+          Have a product that deserves <em>better visuals?</em>
+        </h2>
+        <div class="contact-bottom reveal">
+          <p>Let's turn your idea into something people want to look at.</p>
+          <div class="contact-actions">
+            <a
+              class="button button-dark"
+              data-email-link
+              href="mailto:REPLACE_WITH_EMAIL"
+              >Start a Project <span>↗</span></a
+            ><a
+              class="text-link"
+              data-email-link
+              href="mailto:REPLACE_WITH_EMAIL"
+              >Email Me <span>↗</span></a
+            >
+          </div>
+        </div>
+        <div class="social-row reveal">
+          <span>Find me online</span>
+          <div>
+            <a data-social="behance" href="REPLACE_WITH_BEHANCE_URL"
+              >Behance <span>↗</span></a
+            ><a data-social="instagram" href="REPLACE_WITH_INSTAGRAM_URL"
+              >Instagram <span>↗</span></a
+            ><a data-social="linkedin" href="REPLACE_WITH_LINKEDIN_URL"
+              >LinkedIn <span>↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer-top">
+        <div>
+          <a class="wordmark" href="#top">ESLAM<span>.</span></a>
+          <p>3D Artist &amp; AI Artist</p>
+        </div>
+        <nav aria-label="Footer navigation">
+          <a href="#work">Work</a><a href="#services">Services</a
+          ><a href="#about">About</a><a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="section-shell footer-bottom">
+        <span
+          >© <span id="current-year">2026</span> Eslam Ashraf. All rights
+          reserved.</span
+        ><a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <dialog
+      class="project-modal"
+      id="project-modal"
+      aria-labelledby="modal-title"
+    >
+      <div class="modal-inner">
+        <button
+          class="modal-close"
+          type="button"
+          aria-label="Close project details"
+        >
+          Close <span>×</span>
+        </button>
+        <div class="modal-image"><img id="modal-image" src="" alt="" /></div>
+        <div class="modal-copy">
+          <p class="section-index" id="modal-category"></p>
+          <h2 id="modal-title"></h2>
+          <p class="modal-type" id="modal-type"></p>
+          <p id="modal-description"></p>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>
